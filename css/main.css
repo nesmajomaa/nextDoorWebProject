@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    color:#626364 ;
+}
+html {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #ccc ;
+    padding: 0px 70px;
+    margin: 0px;
+}
+.container {
+    background: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+.header{
+    background: url("../images/header-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-position-y: -520px;
+    background-position-x: center;
+    height: 530px;
+}
+.header div {
+    position: relative;
+    top: 430px;
+    left: 50px;
+}
+.clear {
+    clear: both;
+}
+.header nav {
+    display: inline-block;
+    position: absolute;
+    top: 430px;
+    right: 100px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+.header nav ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+header nav ul li a.active , header nav ul li a:hover{
+    border-bottom: white solid 2px ;
+}
+
+@media (max-width: 992px) {
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    .header div{
+        position: relative;
+        top: 380px;
+        left: 50px;
+    }
+    .header nav{
+        display: inline-block;
+        position: absolute;
+        top: 430px;
+        right: 20px;
+    }
+    .header nav ul li{
+        display: inline-block;
+        margin: 0 10px;
+    } 
+    .header{
+        background: url("../images/header-bg.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-position-x: center;
+        height: 530px;
+    }
+}
+
+

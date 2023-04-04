@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body {
+    margin: 0 ;
+    background-color: #ccc ;
+}
+section {
+   background-color: white;
+    padding: 20px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+}
+.txt {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.txt h4 {
+    font-weight: normal;
+    color: black;
+}
+.c-page {
+    font-size: 25px;
+    margin: 20px auto;
+}
+.c-par {
+    width: 43%;
+    margin: 0 auto;
+    color: dimgray;
+}
+.clear {
+    clear: both;
+}
+.index {
+    border-bottom: white solid 2px;
+}
+.s2 {
+    margin:0 auto;
+    text-align: center;
+}
+.s2-d1 {
+    font-size: 25px;
+}
+.s2-d2 {
+    width: 42%;
+    margin:20px auto;
+    color: dimgray;
+}
+.s2-d3 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+    margin: 20px auto;
+}
+.btn {
+    border-color: green ;
+    color: green;
+    background-color: white;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+.btn:hover {
+    color:white;
+    background-color: green;
+}
+.act{
+    color:white;
+    background-color: green;
+}
+.act:hover {
+    color: green;
+    background-color: white;
+}
+
+/* Gallery section */
+.food {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: 'Open Sans', sans-serif;
+    background: white;
+    grid-column-gap: 27px;
+    grid-row-gap: 2em;
+    padding: 0 90px;
+}
+.food h3 {
+    color: #1A6692;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.food p {
+    color:  #a2a0a0;
+    font-size: 13px;
+    margin-top: 15px;
+}
+small {
+    color: #2f956d;
+    margin-top: 15px;
+    display: inline-block;
+}
+.food div img {
+    width: 100%;
+}
+/* End Gallery section */
+
+.EndFood {
+    background: white;
+    padding: 0 90px;
+    border-top: 5em solid white;
+}
+.EndFood .img {
+    float: left; 
+}
+.EndFood .img img {
+    width: 500px;
+}
+.EndFood .details {
+    float: left;
+    padding-left: 25px;
+}
+.EndFood .details div a{
+    float: right;
+}
+.EndFood h3 {
+    font-weight: 400;
+    color: #1A6692;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.EndFood p {
+    color: #a2a0a0;
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    /* margin-right: 12.9em; */
+    margin-top: 10px;
+    line-height: 30px;
+    font-weight: 400;
+    height: 145px;
+    max-height: 145px;
+}
+.EndFood button {
+    padding: 6px;
+    width: 110px;
+    color: #626364;
+    font-size: 17px;
+    background: white;
+    border: 1px solid #ccc;
+    font-family: 'Open Sans', sans-serif;
+}
+.EndFood p a{
+    color: #0033ff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Footer */
+footer{
+    background: white;
+}
+footer p{
+    background: white;
+    margin: 0;
+    text-align: center;
+    color: #a2a0a0;
+    border-top: 3em solid white;
+    border-bottom: 1em solid white;
+}
+footer p a{
+    text-decoration: none;
+    color:#626364;
+}
+@media (max-width: 992px) {
+    .EndFood .img {
+        float: none;
+        display: grid;
+        text-decoration: column;
+    }
+    .EndFood .img img{
+        width: 200px;
+        height: 150px;
+    }
+    .EndFood .details {
+        float: none;
+        padding: 0;
+    }
+    .EndFood .details button {
+        margin-top: 180px;
+    }
+    .EndFood .details div a {
+         float: none;   
+    }
+
+}

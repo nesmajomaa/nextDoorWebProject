@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 ;
+    background-color: #ccc ;
+}
+section {
+    background-color: white;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+}
+.clear {
+    clear: both;
+}
+.contact{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.contact h4 {
+font-weight: normal;
+color: black;
+}
+.c-page {
+    font-size: 25px;
+    margin: 20px auto;
+}
+.c-par {
+    width: 43%;
+    margin: 0 auto;
+    color: dimgray;
+}
+label {
+            display: block;
+}
+.errormessage {
+    color: red;
+    display: inline-block;
+    width: 75%;
+    text-align: left;
+}
+.errormessage2 {
+    color: red;
+    display: inline-block;
+    width: 75%;
+    text-align: left;
+}
+.errormessage3 {
+    color: red;
+    display: inline-block;
+    width: 75%;
+    text-align: left;
+}
+form {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: white;
+}
+#name {
+    width: 75%;
+    padding: 7px;
+    margin-top: 10px;
+}
+#email {
+    width: 75%;
+    padding: 7px;
+    margin-top: 10px;
+}
+#message {
+    width: 75%;
+    padding: 7px;
+    margin-top: 10px;
+}
+#Send {
+    color: white;
+    background-color: #319966;
+    border-color: #319966;
+    width: 75%;
+    padding: 8px;
+    margin-top: 10px;
+}
+#Send:hover {
+    background-color:#1d6e46 ;
+}
+.alert {
+    width: 75%;
+    margin: auto;
+    background-color: #aefcdd;
+    border-radius: 5px;
+    border: #2F956D solid 1px;
+    padding: 15px;
+}
+.alert p {
+   text-align: left;
+    color: #115d3f;
+}
+.social {
+    background-color: white;
+}
+footer {
+    background: white;
+}
+footer p {
+    background: white;
+    margin: 0;
+    text-align: center;
+    color: #a2a0a0;
+    border-top: 3em solid white;
+    border-bottom: 1em solid white;
+}
+footer p a {
+    text-decoration: none;
+    color:#626364;
+}

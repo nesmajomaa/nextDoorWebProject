@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 ;
+    background-color: #ccc ;
+}
+section {
+    padding: 20px;
+    background-color: white;
+}
+.txt{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.txt h4{
+    font-weight: normal;
+    color: black;
+}
+.c-page{
+    font-size: 25px;
+    margin: 20px auto;
+}
+.c-par{
+    width: 43%;
+    margin: 0 auto;
+    color: dimgray;
+}
+.clear {
+    clear: both;
+}
+.about-us {
+    border-bottom: white solid 2px;
+}
+.about-1 {
+    background-color: white;
+    margin:0 auto;
+    text-align: center;
+}
+.about-1 h1 {
+    font-size: 25px;
+    font-weight: normal;
+}
+.about-1 p {
+    width: 42%;
+    margin:20px auto;
+    color: dimgray;
+}
+
+.about-members {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-color: white;
+}
+.member-item {
+    display: inline-block;
+    padding-left: 50px;
+    margin-bottom: 80px;
+}
+.member-item .img { 
+    float: left;
+    margin-right: 12px;
+}
+.member-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.member-details h3 {
+    color: #09C;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.member-details h5 {
+    color: #C39;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.member-details p {
+    font-size: 20px;
+    padding-right: 50px;
+    height: 80px;
+    color: #626364;
+    max-height: 80px;
+    overflow: hidden;
+    margin-right:30px;
+    margin-bottom: 10px;
+}
+.social li {
+    display: inline-block;
+    margin: 0 2px;
+}
+.social li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #626364;
+    font-size: 20px;
+}
+.social li a:hover {
+    background: #626364;
+    color: white;
+}
+.about-2 {
+    background-color: white;
+    padding: 20px;
+}
+.about-img {
+    background: url("../images/about-05.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-position-x: center;
+    height: 300px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.featuresSection {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.fs-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.fa-cocktail,.fa-seedling,.fa-pepper-hot {
+    color: darkgrey;
+    margin: 20px 0;
+    font-size: 40px;
+}
+.fs-txt {
+    font-size: 17px;
+    margin: 15px 80px;
+    color:dimgray;
+}
+.fs-btn {
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+.btn1 {
+   background-color: #2D99CC;
+    border-color: #2D99CC;
+    color: white;
+}
+.btn2 {
+    background-color: #319966;
+    border-color: #319966;
+    color: white;
+}
+.btn3 {
+    background-color: #993332;
+    border-color:#993332;
+    color: white;
+}
+.btn1:hover {
+    background-color:#1b6f96 ;
+}
+.btn2:hover {
+    background-color:#1d6e46 ;
+}
+.btn3:hover {
+    background-color:#752423 ;
+}
+
+.about-last {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-last img {
+    float: left;
+    margin-left: 40px;
+    margin-right: 30px;
+    style="width: 500px;
+}
+.about-last .details {
+    padding-right: 20px;
+}
+.about-last .details a{
+    color: #0033ff;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-last h1 {
+    color: #09C;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+    line-height: 25px;
+}
+.about-last p {
+    padding-right: 70px;
+    font-size: 17px;
+}
+.details-contact{
+    color: #0033ff;
+}
+footer{
+    background: white;
+}
+footer p{
+    background: white;
+    margin: 0;
+    text-align: center;
+    color: #a2a0a0;
+    border-top: 3em solid white;
+    border-bottom: 1em solid white;
+}
+footer p a{
+    text-decoration: none;
+    color:#626364;
+}
+@media (max-width: 992px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .about-members {
+        grid-template-columns: 1fr;
+    }
+    .featuresSection {
+        flex-direction: column;
+    }
+    .about-last {
+       flex-direction: column; 
+    }
+    .about-last img {
+        width: 275px;
+        float: none;
+    }
+    .about-last .details {
+        padding-right: 20px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .about-last .details p {
+        text-align: center;
+        margin-left: 100px;
+    }
+}
